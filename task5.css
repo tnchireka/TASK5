@@ -1,0 +1,150 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.8;
+}
+.logo{
+  color:#d62839;
+}
+.nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:sticky;
+  border-bottom: 2px solid #d62839;
+  padding:15px 180px;
+  top:0;
+}
+.nav ul{
+  display:flex;
+  list-style: none;
+  gap:20px;
+}
+.nav a{
+  text-decoration: none;
+  color:black;
+}
+.nav a:hover{
+  color:#d62839;
+}
+.home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:30px;
+  transition: fadeIn 1.5s;
+}
+.hometxt{
+  width: 550px;
+}
+.det{
+  color:#d62839;
+  font-weight: bold;
+}
+.home h1{
+  font-size: 42px;
+  margin:10px 0;
+}
+.home h3{
+  margin-bottom: 10px;
+}
+.button{
+  display:inline-block;
+  background-color: #d62839;
+  color:white;
+  border-radius:25px;
+  margin:10px 10px 0 0;
+  padding:12px 25px ;
+  border:2px solid #d62839;
+  text-decoration: none;
+}
+.button:hover{
+  background-color:#b01e2d;
+  transform: translateY(-4px);
+}
+.buttonc{
+  background-color: white;
+  color:#d62839;
+}
+.buttonc:hover{
+  background-color: #fff3f3;
+}
+.photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:200px;
+  height: 200px;
+  background-color: #d62839;
+  color: white;
+  border-radius: 50%;
+  font-size: 80px;
+  font-weight: bold;
+  transition:0.5s;
+}
+.photo:hover{
+  transform:scale(1.5);
+}
+section{
+  padding:60px 180px;
+}
+p{
+  margin-bottom: 10px;
+}
+.pinkbg{
+  background-color:#fff3f3 ;
+}
+.title{
+  color:#d62839;
+  font-size: 32px;
+  margin-top: 15px;
+}
+.bar{
+  background-color:#f3d5d8 ;
+  height: 12px;
+  border-radius:10px ;
+}
+.fill{
+  background-color: #d62839 ;
+  height:12px ;
+  border-radius: 10px;
+}
+.fill:hover{
+  background-color: #ff4d5e;
+  transform: scaleY(1.5);
+}
+.cards{
+  display: flex;
+  gap:20px;
+  flex-wrap:wrap;
+}
+.card{
+  background-color: white;
+  border:1px solid #f3d5d8;
+  border-radius: 10px;
+  padding:20px;
+  flex:1;
+  min-width: 250px;
+}
+.card:hover{
+  transform: translateY(-8px);
+  border-color: #d62839;
+  box-shadow: 0 5px 15px rgba(214, 40, 57, 0.2); 
+}
+.red{
+  color:#d62839;
+}
+footer {
+  background-color: #d62839;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+html{
+  scroll-behavior: smooth;
+}
